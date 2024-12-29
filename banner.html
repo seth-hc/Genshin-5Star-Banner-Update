@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Genshin Impact 5* Character Release History
+    </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="ban_style.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.2/css/jquery.dataTables.min.css">
+</head>
+
+<body class='bg'>
+    <div id="giImg">
+    </div>
+    <div class='content'>
+        <div>
+            <div style="background: rgba(0, 0, 0, 0.5);">
+                <h1>G.I. 5* Banner History</h1>
+                <div class='legend'>
+                    <div class='box bd'></div>
+                    <p>less than 160d</p>
+                    <div class='box rd'></div>
+                    <p>160d - 320d</p>
+                    <div class='box rd2'></div>
+                    <p>320d - 480d</p>
+                    <div class='box ada'></div>
+                    <p>more than 480d</p>
+                    <div class='box og'></div>
+                    <p>Ongoing</p>
+                    <div class='box cs'></div>
+                    <p>Coming Soon</p>
+                    <button id="trigger" class="on" onclick="trigger()">Hide Permanent</button>
+                </div>
+            </div>
+        </div>
+        <table id="excelDataTable" border="1" style="height:50%;width:90%;">
+        </table>
+    </div>
+    <footer>
+        This webpage is not affiliated with HoYoverse.
+        Genshin Impact, game content and materials are trademarks and copyrights of HoYoverse.
+    </footer>
+</body>
+<script src="ban.js"></script>
+
+</html>

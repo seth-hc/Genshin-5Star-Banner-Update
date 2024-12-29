@@ -1,0 +1,880 @@
+[
+    {
+        "Name": "Venti",
+        "Banner Dates": [
+            [
+                "September 28, 2020",
+                "October 18, 2020"
+            ],
+            [
+                "March 17, 2021",
+                "April 6, 2021"
+            ],
+            [
+                "March 30, 2022",
+                "April 19, 2022"
+            ],
+            [
+                "September 28, 2022",
+                "October 14, 2022"
+            ],
+            [
+                "October 17, 2023",
+                "November 7, 2023"
+            ]
+        ],
+        "Last Version": "Version 4.1"
+    },
+    {
+        "Name": "Diluc*",
+        "Banner Dates": [
+            [
+                "September 28, 2020",
+                "Indefinite"
+            ],
+            [
+                "March 13, 2024",
+                "April 2, 2024"
+            ]
+        ],
+        "Last Version": "Version 4.5"
+    },
+    {
+        "Name": "Jean*",
+        "Banner Dates": [
+            [
+                "September 28, 2020",
+                "Indefinite"
+            ],
+            [
+                "March 13, 2024",
+                "April 2, 2024"
+            ]
+        ],
+        "Last Version": "Version 4.5"
+    },
+    {
+        "Name": "Keqing*",
+        "Banner Dates": [
+            [
+                "September 28, 2020",
+                "Indefinite"
+            ],
+            [
+                "February 17, 2021",
+                "March 2, 2021"
+            ],
+            [
+                "TBA",
+                "TBA"
+            ]
+        ],
+        "Last Version": "Version 5.3"
+    },
+    {
+        "Name": "Mona*",
+        "Banner Dates": [
+            [
+                "September 28, 2020",
+                "Indefinite"
+            ],
+            [
+                "March 13, 2024",
+                "April 2, 2024"
+            ]
+        ],
+        "Last Version": "Version 4.5"
+    },
+    {
+        "Name": "Qiqi*",
+        "Banner Dates": [
+            [
+                "September 28, 2020",
+                "Indefinite"
+            ],
+            [
+                "TBA",
+                "TBA"
+            ]
+        ],
+        "Last Version": "Version 5.3"
+    },
+    {
+        "Name": "Klee",
+        "Banner Dates": [
+            [
+                "October 20, 2020",
+                "November 10, 2020"
+            ],
+            [
+                "June 9, 2021",
+                "June 29, 2021"
+            ],
+            [
+                "July 13, 2022",
+                "August 2, 2022"
+            ],
+            [
+                "July 5, 2023",
+                "July 25, 2023"
+            ],
+            [
+                "March 13, 2024",
+                "April 2, 2024"
+            ]
+        ],
+        "Last Version": "Version 4.5"
+    },
+    {
+        "Name": "Tartaglia",
+        "Banner Dates": [
+            [
+                "November 11, 2020",
+                "December 1, 2020"
+            ],
+            [
+                "April 6, 2021",
+                "April 27, 2021"
+            ],
+            [
+                "October 13, 2021",
+                "November 2, 2021"
+            ],
+            [
+                "November 18, 2022",
+                "December 6, 2022"
+            ],
+            [
+                "September 5, 2023",
+                "September 26, 2023"
+            ],
+            [
+                "TBA",
+                "TBA"
+            ]
+        ],
+        "Last Version": "Version 5.3"
+    },
+    {
+        "Name": "Zhongli",
+        "Banner Dates": [
+            [
+                "December 1, 2020",
+                "December 22, 2020"
+            ],
+            [
+                "April 28, 2021",
+                "May 18, 2021"
+            ],
+            [
+                "January 25, 2022",
+                "February 15, 2022"
+            ],
+            [
+                "August 24, 2022",
+                "September 9, 2022"
+            ],
+            [
+                "September 5, 2023",
+                "September 26, 2023"
+            ],
+            [
+                "December 10, 2024",
+                "December 31, 2024"
+            ]
+        ],
+        "Last Version": "Version 5.2"
+    },
+    {
+        "Name": "Albedo",
+        "Banner Dates": [
+            [
+                "December 23, 2020",
+                "January 12, 2021"
+            ],
+            [
+                "November 24, 2021",
+                "December 14, 2021"
+            ],
+            [
+                "October 14, 2022",
+                "November 1, 2022"
+            ],
+            [
+                "March 13, 2024",
+                "April 2, 2024"
+            ]
+        ],
+        "Last Version": "Version 4.5"
+    },
+    {
+        "Name": "Ganyu",
+        "Banner Dates": [
+            [
+                "January 12, 2021",
+                "February 2, 2021"
+            ],
+            [
+                "January 25, 2022",
+                "February 15, 2022"
+            ],
+            [
+                "September 9, 2022",
+                "September 27, 2022"
+            ],
+            [
+                "May 2, 2023",
+                "May 23, 2023"
+            ],
+            [
+                "TBA",
+                "TBA"
+            ]
+        ],
+        "Last Version": "Version 5.3"
+    },
+    {
+        "Name": "Xiao",
+        "Banner Dates": [
+            [
+                "February 3, 2021",
+                "February 17, 2021"
+            ],
+            [
+                "January 5, 2022",
+                "January 25, 2022"
+            ],
+            [
+                "May 31, 2022",
+                "June 21, 2022"
+            ],
+            [
+                "January 18, 2023",
+                "February 7, 2023"
+            ],
+            [
+                "February 20, 2024",
+                "March 12, 2024"
+            ],
+            [
+                "TBA",
+                "TBA"
+            ]
+        ],
+        "Last Version": "Version 5.3"
+    },
+    {
+        "Name": "Hu Tao",
+        "Banner Dates": [
+            [
+                "March 2, 2021",
+                "March 16, 2021"
+            ],
+            [
+                "November 2, 2021",
+                "November 23, 2021"
+            ],
+            [
+                "February 7, 2023",
+                "February 28, 2023"
+            ],
+            [
+                "September 27, 2023",
+                "October 17, 2023"
+            ],
+            [
+                "October 29, 2024",
+                "November 19, 2024"
+            ]
+        ],
+        "Last Version": "Version 5.1"
+    },
+    {
+        "Name": "Eula",
+        "Banner Dates": [
+            [
+                "May 18, 2021",
+                "June 8, 2021"
+            ],
+            [
+                "November 24, 2021",
+                "December 14, 2021"
+            ],
+            [
+                "July 5, 2023",
+                "July 25, 2023"
+            ],
+            [
+                "March 13, 2024",
+                "April 2, 2024"
+            ]
+        ],
+        "Last Version": "Version 4.5"
+    },
+    {
+        "Name": "Kaedehara Kazuha",
+        "Banner Dates": [
+            [
+                "June 29, 2021",
+                "July 20, 2021"
+            ],
+            [
+                "July 13, 2022",
+                "August 2, 2022"
+            ],
+            [
+                "June 13, 2023",
+                "July 4, 2023"
+            ],
+            [
+                "April 2, 2024",
+                "April 23, 2024"
+            ],
+            [
+                "August 28, 2024",
+                "September 17, 2024"
+            ]
+        ],
+        "Last Version": "Version 5.0"
+    },
+    {
+        "Name": "Kamisato Ayaka",
+        "Banner Dates": [
+            [
+                "July 21, 2021",
+                "August 10, 2021"
+            ],
+            [
+                "April 19, 2022",
+                "May 31, 2022"
+            ],
+            [
+                "March 21, 2023",
+                "April 11, 2023"
+            ],
+            [
+                "December 20, 2023",
+                "January 9, 2024"
+            ]
+        ],
+        "Last Version": "Version 4.3"
+    },
+    {
+        "Name": "Yoimiya",
+        "Banner Dates": [
+            [
+                "August 10, 2021",
+                "August 31, 2021"
+            ],
+            [
+                "August 2, 2022",
+                "August 23, 2022"
+            ],
+            [
+                "November 2, 2022",
+                "November 18, 2022"
+            ],
+            [
+                "May 24, 2023",
+                "June 13, 2023"
+            ],
+            [
+                "January 9, 2024",
+                "January 30, 2024"
+            ]
+        ],
+        "Last Version": "Version 4.3"
+    },
+    {
+        "Name": "Raiden Shogun",
+        "Banner Dates": [
+            [
+                "September 1, 2021",
+                "September 21, 2021"
+            ],
+            [
+                "March 8, 2022",
+                "March 29, 2022"
+            ],
+            [
+                "December 27, 2022",
+                "January 17, 2023"
+            ],
+            [
+                "January 9, 2024",
+                "January 30, 2024"
+            ],
+            [
+                "September 17, 2024",
+                "October 8, 2024"
+            ]
+        ],
+        "Last Version": "Version 5.0"
+    },
+    {
+        "Name": "Sangonomiya Kokomi",
+        "Banner Dates": [
+            [
+                "September 21, 2021",
+                "October 12, 2021"
+            ],
+            [
+                "March 8, 2022",
+                "March 29, 2022"
+            ],
+            [
+                "September 9, 2022",
+                "September 27, 2022"
+            ],
+            [
+                "July 25, 2023",
+                "August 15, 2023"
+            ]
+        ],
+        "Last Version": "Version 3.8"
+    },
+    {
+        "Name": "Arataki Itto",
+        "Banner Dates": [
+            [
+                "December 14, 2021",
+                "January 4, 2022"
+            ],
+            [
+                "June 21, 2022",
+                "July 12, 2022"
+            ],
+            [
+                "December 7, 2022",
+                "December 27, 2022"
+            ],
+            [
+                "March 13, 2024",
+                "April 2, 2024"
+            ]
+        ],
+        "Last Version": "Version 4.5"
+    },
+    {
+        "Name": "Shenhe",
+        "Banner Dates": [
+            [
+                "January 5, 2022",
+                "January 25, 2022"
+            ],
+            [
+                "March 21, 2023",
+                "April 11, 2023"
+            ],
+            [
+                "TBA",
+                "TBA"
+            ]
+        ],
+        "Last Version": "Version 5.3"
+    },
+    {
+        "Name": "Yae Miko",
+        "Banner Dates": [
+            [
+                "February 16, 2022",
+                "March 8, 2022"
+            ],
+            [
+                "November 18, 2022",
+                "December 6, 2022"
+            ],
+            [
+                "May 24, 2023",
+                "June 13, 2023"
+            ],
+            [
+                "February 20, 2024",
+                "March 12, 2024"
+            ]
+        ],
+        "Last Version": "Version 4.4"
+    },
+    {
+        "Name": "Kamisato Ayato",
+        "Banner Dates": [
+            [
+                "March 30, 2022",
+                "April 19, 2022"
+            ],
+            [
+                "December 27, 2022",
+                "January 17, 2023"
+            ],
+            [
+                "November 28, 2023",
+                "December 19, 2023"
+            ]
+        ],
+        "Last Version": "Version 4.2"
+    },
+    {
+        "Name": "Yelan",
+        "Banner Dates": [
+            [
+                "May 31, 2022",
+                "June 21, 2022"
+            ],
+            [
+                "February 7, 2023",
+                "February 28, 2023"
+            ],
+            [
+                "August 16, 2023",
+                "September 5, 2023"
+            ],
+            [
+                "August 6, 2024",
+                "August 27, 2024"
+            ]
+        ],
+        "Last Version": "Version 4.8"
+    },
+    {
+        "Name": "Tighnari*",
+        "Banner Dates": [
+            [
+                "August 24, 2022",
+                "September 9, 2022"
+            ]
+        ],
+        "Last Version": "Version 3.0"
+    },
+    {
+        "Name": "Cyno",
+        "Banner Dates": [
+            [
+                "September 28, 2022",
+                "October 14, 2022"
+            ],
+            [
+                "March 1, 2023",
+                "March 21, 2023"
+            ],
+            [
+                "November 28, 2023",
+                "December 19, 2023"
+            ]
+        ],
+        "Last Version": "Version 4.2"
+    },
+    {
+        "Name": "Nilou",
+        "Banner Dates": [
+            [
+                "October 14, 2022",
+                "November 1, 2022"
+            ],
+            [
+                "April 12, 2023",
+                "May 2, 2023"
+            ],
+            [
+                "July 17, 2024",
+                "August 6, 2024"
+            ]
+        ],
+        "Last Version": "Version 4.8"
+    },
+    {
+        "Name": "Nahida",
+        "Banner Dates": [
+            [
+                "November 2, 2022",
+                "November 18, 2022"
+            ],
+            [
+                "April 12, 2023",
+                "May 2, 2023"
+            ],
+            [
+                "January 31, 2024",
+                "February 20, 2024"
+            ],
+            [
+                "October 29, 2024",
+                "November 19, 2024"
+            ]
+        ],
+        "Last Version": "Version 5.1"
+    },
+    {
+        "Name": "Wanderer",
+        "Banner Dates": [
+            [
+                "December 7, 2022",
+                "December 27, 2022"
+            ],
+            [
+                "July 25, 2023",
+                "August 15, 2023"
+            ],
+            [
+                "May 14, 2024",
+                "June 4, 2024"
+            ]
+        ],
+        "Last Version": "Version 4.6"
+    },
+    {
+        "Name": "Alhaitham",
+        "Banner Dates": [
+            [
+                "January 18, 2023",
+                "February 7, 2023"
+            ],
+            [
+                "June 13, 2023",
+                "July 4, 2023"
+            ],
+            [
+                "June 5, 2024",
+                "June 25, 2024"
+            ]
+        ],
+        "Last Version": "Version 4.7"
+    },
+    {
+        "Name": "Dehya*",
+        "Banner Dates": [
+            [
+                "March 1, 2023",
+                "March 21, 2023"
+            ]
+        ],
+        "Last Version": "Version 3.5"
+    },
+    {
+        "Name": "Baizhu",
+        "Banner Dates": [
+            [
+                "May 2, 2023",
+                "May 23, 2023"
+            ],
+            [
+                "November 8, 2023",
+                "November 28, 2023"
+            ],
+            [
+                "May 14, 2024",
+                "June 4, 2024"
+            ],
+            [
+                "TBA",
+                "TBA"
+            ]
+        ],
+        "Last Version": "Version 5.3"
+    },
+    {
+        "Name": "Lyney",
+        "Banner Dates": [
+            [
+                "August 16, 2023",
+                "September 5, 2023"
+            ],
+            [
+                "April 24, 2024",
+                "May 14, 2024"
+            ],
+            [
+                "November 20, 2024",
+                "December 10, 2024"
+            ]
+        ],
+        "Last Version": "Version 5.2"
+    },
+    {
+        "Name": "Neuvillette",
+        "Banner Dates": [
+            [
+                "September 27, 2023",
+                "October 17, 2023"
+            ],
+            [
+                "April 2, 2024",
+                "April 23, 2024"
+            ],
+            [
+                "December 10, 2024",
+                "December 31, 2024"
+            ]
+        ],
+        "Last Version": "Version 5.2"
+    },
+    {
+        "Name": "Wriothesley",
+        "Banner Dates": [
+            [
+                "October 17, 2023",
+                "November 7, 2023"
+            ]
+        ],
+        "Last Version": "Version 4.1"
+    },
+    {
+        "Name": "Furina",
+        "Banner Dates": [
+            [
+                "November 8, 2023",
+                "November 28, 2023"
+            ],
+            [
+                "June 25, 2024",
+                "July 16, 2024"
+            ]
+        ],
+        "Last Version": "Version 4.7"
+    },
+    {
+        "Name": "Navia",
+        "Banner Dates": [
+            [
+                "December 20, 2023",
+                "January 9, 2024"
+            ],
+            [
+                "July 17, 2024",
+                "August 6, 2024"
+            ]
+        ],
+        "Last Version": "Version 4.8"
+    },
+    {
+        "Name": "Xianyun",
+        "Banner Dates": [
+            [
+                "January 31, 2024",
+                "February 20, 2024"
+            ]
+        ],
+        "Last Version": "Version 4.4"
+    },
+    {
+        "Name": "Chiori",
+        "Banner Dates": [
+            [
+                "March 13, 2024",
+                "April 2, 2024"
+            ],
+            [
+                "October 9, 2024",
+                "October 29, 2024"
+            ]
+        ],
+        "Last Version": "Version 5.1"
+    },
+    {
+        "Name": "Arlecchino",
+        "Banner Dates": [
+            [
+                "April 24, 2024",
+                "May 14, 2024"
+            ],
+            [
+                "TBA",
+                "TBA"
+            ]
+        ],
+        "Last Version": "Version 5.3"
+    },
+    {
+        "Name": "Clorinde",
+        "Banner Dates": [
+            [
+                "June 5, 2024",
+                "June 25, 2024"
+            ],
+            [
+                "TBA",
+                "TBA"
+            ]
+        ],
+        "Last Version": "Version 5.3"
+    },
+    {
+        "Name": "Sigewinne",
+        "Banner Dates": [
+            [
+                "June 25, 2024",
+                "July 16, 2024"
+            ]
+        ],
+        "Last Version": "Version 4.7"
+    },
+    {
+        "Name": "Emilie",
+        "Banner Dates": [
+            [
+                "August 6, 2024",
+                "August 27, 2024"
+            ]
+        ],
+        "Last Version": "Version 4.8"
+    },
+    {
+        "Name": "Mualani",
+        "Banner Dates": [
+            [
+                "August 28, 2024",
+                "September 17, 2024"
+            ]
+        ],
+        "Last Version": "Version 5.0"
+    },
+    {
+        "Name": "Kinich",
+        "Banner Dates": [
+            [
+                "September 17, 2024",
+                "October 8, 2024"
+            ]
+        ],
+        "Last Version": "Version 5.0"
+    },
+    {
+        "Name": "Xilonen",
+        "Banner Dates": [
+            [
+                "October 9, 2024",
+                "October 29, 2024"
+            ]
+        ],
+        "Last Version": "Version 5.1"
+    },
+    {
+        "Name": "Chasca",
+        "Banner Dates": [
+            [
+                "November 20, 2024",
+                "December 10, 2024"
+            ]
+        ],
+        "Last Version": "Version 5.2"
+    },
+    {
+        "Name": "Mavuika",
+        "Banner Dates": [
+            [
+                "January 1, 2025",
+                "TBA"
+            ]
+        ],
+        "Last Version": "Version 5.3"
+    },
+    {
+        "Name": "Citlali",
+        "Banner Dates": [
+            [
+                "January 1, 2025",
+                "TBA"
+            ]
+        ],
+        "Last Version": "Version 5.3"
+    }
+]
