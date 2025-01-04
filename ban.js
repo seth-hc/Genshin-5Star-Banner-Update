@@ -14,9 +14,9 @@ $(document).ready(function () {
         for (var c in tableData) {
             var banner_date = tableData[c]['Banner Dates']
 
+            tableData[c]['Days Since Last'] = "Coming Soon"
+            tableData[c]['hidden'] = 9999
             if (banner_date[banner_date.length - 1][1] == 'TBA') {
-                tableData[c]['Days Since Last'] = "Coming Soon"
-                tableData[c]['hidden'] = 9999
                 if (banner_date.length != 1) {
                     if (banner_date[banner_date.length - 2][1] == 'Indefinite') {
                         var last = dateDiff(banner_date[banner_date.length - 2][0])
@@ -24,18 +24,27 @@ $(document).ready(function () {
                         var last = dateDiff(banner_date[banner_date.length - 2][1])
                     }
                     tableData[c]['hidden'] = last
-                    tableData[c]['Days Since Last'] = last + " Days<br>Coming Soon"
+                    tableData[c]['Days Since Last'] = "Last since " + last + " Days<br>Coming Soon"
                 }
             } else {
+                var first = dateDiff(banner_date[banner_date.length - 1][0])
                 var last = dateDiff(banner_date[banner_date.length - 1][1])
+                tableData[c]['hidden'] = last;
                 if (last > 0) {
                     tableData[c]['Days Since Last'] = last + " Days"
                 } else {
-                    tableData[c]['Days Since Last'] = "Ongoing"
+                    if (first < 0) {
+                        tableData[c]['hidden'] = 9999;
+                        tableData[c]['Days Since Last'] = "Coming Soon in " + -(first) + " Days";
+                    } else {
+                        tableData[c]['hidden'] = 10001;
+                        tableData[c]['Days Since Last'] = "Ongoing";
+                    }
                 }
-                tableData[c]['hidden'] = last
             }
         }
+
+        console.log(tableData)
 
         columnNames = Object.keys(tableData[0]);
 
@@ -84,9 +93,7 @@ $(document).ready(function () {
             }
             ],
             createdRow: function (row, data, dataIndex) {
-                if (data['hidden'] <= 0) {
-                    $(row).addClass('og');
-                } else if (data['hidden'] < 160 && data['hidden'] > 0) {
+                if (data['hidden'] < 160 && data['hidden'] > 0) {
                     $(row).addClass('bd');
                 } else if (data['hidden'] < 320 && data['hidden'] >= 160) {
                     $(row).addClass('rd');
@@ -94,8 +101,10 @@ $(document).ready(function () {
                     $(row).addClass('rd2');
                 } else if (data['hidden'] < 9000 && data['hidden'] >= 480) {
                     $(row).addClass('ada');
-                } else if (data['hidden'] > 9000) {
+                } else if (data['hidden'] < 10000 && data['hidden'] >= 9000) {
                     $(row).addClass('cs');
+                } else if (data['hidden'] > 10000){
+                    $(row).addClass('og');
                 }
 
                 if (data['Name'].includes("*")) {
