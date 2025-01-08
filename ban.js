@@ -66,9 +66,13 @@ $(document).ready(function () {
                 "render": function (data) {
                     if (typeof (data) == "object") {
                         var printed = ""
-                        for (var k in data) {
-                            var dat_string = "<li>" + data[k][0] + " - " + data[k][1] + "</li>"
-                            printed += dat_string + "<br>"
+                        for (var k = data.length - 1; k >= 0; k--) {
+                            if (k != data.length - 1) {
+                                var dat_string = "<li class=\"nlast\">" + data[k][0] + " - " + data[k][1] + "</li>"
+                            } else {
+                                var dat_string = "<li>" + data[k][0] + " - " + data[k][1] + "</li>"
+                            }
+                            printed += dat_string
                         }
                         return printed
                     } else {
@@ -89,7 +93,7 @@ $(document).ready(function () {
                 target: 3, orderData: [4]
             },
             {
-                target: 4, visible: false
+                target: 4, visible: false, searchable: false
             }
             ],
             createdRow: function (row, data, dataIndex) {
@@ -103,34 +107,44 @@ $(document).ready(function () {
                     $(row).addClass('ada');
                 } else if (data['hidden'] < 10000 && data['hidden'] >= 9000) {
                     $(row).addClass('cs');
-                } else if (data['hidden'] > 10000){
+                } else if (data['hidden'] > 10000) {
                     $(row).addClass('og');
                 }
 
                 if (data['Name'].includes("*")) {
-                    $(row).addClass('hide');
+                    $(row).addClass('perm');
                 }
             }
         });
     })
 });
 
-function trigger() {
-    var current = document.getElementById('trigger');
+function trigger(button) {
+    var current = document.getElementById(button.id);
     var curr_class = current.className;
 
-    var krow = document.getElementsByClassName('hide')
-    if (curr_class == "on") {
-        current.className = "off"
-        current.textContent = "Show Permanent"
+    if (curr_class.includes("on")) {
+        current.classList.remove("on")
+        current.classList.add("off")
         var visibility = "none"
     } else {
-        current.className = "on"
-        current.textContent = "Hide Permanent"
+        current.classList.remove("off")
+        current.classList.add("on")
         var visibility = ""
     }
-    for (var j in krow) {
-        krow[j].style.display = visibility
+    var krow = document.getElementsByClassName(current.classList[1])
+    for (var j = 0; j < krow.length; j++) {
+        if (!krow[j].className.includes("box")) {
+            krow[j].style.display = visibility
+        } else {
+            if (visibility == "") {
+                krow[j].children[0].style.display = ""
+                krow[j].children[1].style.display = "none"
+            } else {
+                krow[j].children[0].style.display = "none"
+                krow[j].children[1].style.display = ""
+            }
+        }
     }
 
     console.log(curr_class)
