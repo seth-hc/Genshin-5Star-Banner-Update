@@ -2,7 +2,7 @@ const today = new Date();
 $(document).ready(function () {
 
     async function getData() {
-        const response = await fetch('./new_charlist.json');
+        const response = await fetch('./Banner/new_charlist.json');
         const myList = await response.json()
         return myList;
     }

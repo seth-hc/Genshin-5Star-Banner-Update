@@ -1,3 +1,8 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
 #giImg {
     z-index: -99999;
     position: fixed;
@@ -19,10 +24,18 @@
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
-    width: 100%;
-    height: 100%;
     padding: 10px 20px;
     overflow: auto;
+}
+
+/*header*/
+.head {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 9999;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 90%;
 }
 
 h1 {
@@ -90,6 +103,12 @@ h1 {
     color: rgb(0, 0, 0) !important;
 }
 
+/*table*/
+.dt_div {
+    position: relative;
+    padding-top: 8%;
+}
+
 li {
     padding: 10px 0px;
 }
@@ -110,6 +129,7 @@ td:nth-child(2) {
     text-align: left !important;
 }
 
+/*footer*/
 footer {
     vertical-align: bottom;
     text-align: center;
